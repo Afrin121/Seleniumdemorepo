@@ -1,0 +1,29 @@
+public class MethodType2 {
+
+	public static void main(String[] args) {
+		int result =add(2,3);
+		System.out.println(result);
+	}
+		
+//		int result = add(10,3);
+//		System.out.println(result);
+			
+// 		case 1:
+//	public static void add(int a, int b) {
+//		int sum = a+b;
+//		System.out.println(sum);
+	
+// 	case 2:
+		public static int add(int a, int b) {
+		int sum = a+b;
+//		System.out.println(Sum);
+		return sum;// This is the proper logic
+//		return 20;	// 	This is a wrong logic
+	
+	
+
+
+	
+	}
+
+}
